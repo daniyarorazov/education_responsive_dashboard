@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding-top: 40px;
+}
+
+.section-header {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.section-header .section__block:first-child {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.section-header .section__block .section__img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 200px;
+}
+
+.section-header .section__block .section__subblock:first-child h2 {
+  font-weight: 700;
+}
+
+.list-courses {
+  padding: 0 25px;
+  margin-top: 20px;
+}

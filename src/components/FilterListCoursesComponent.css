@@ -1,0 +1,27 @@
+.carousel-wrapper {
+    position: relative;
+    margin-top: 20px;
+}
+
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    gap: 10px;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none; /* WebKit */
+}
+
+.filter-button {
+    cursor: pointer;
+
+}
+
+.filter-button:first-child {
+    margin-left: 25px;
+}

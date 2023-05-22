@@ -1,0 +1,35 @@
+.card-course {
+    width: 100%;
+    max-width: 400px;
+    background-color: #AD87F3;
+    border-radius: 20px;
+    padding: 20px;
+    color: #FBFBFB;
+    cursor: pointer;
+}
+
+.card-course .card__block {
+}
+
+.card-course .card__block h2 {
+    margin-bottom: 5px;
+}
+
+.card-course .card__block span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.card-course .card__block .card__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-course .card__block hr {
+    background-color: #B897F2;
+    color: #B897F2;
+    height: 1px;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
